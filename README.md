@@ -32,5 +32,6 @@ options:
   -t, --threads [THREADS]
                         Number of threads
 ```
+You can proceed with the `k2 build` after running this without any errors.
 
 It should work on manifest files generated for archaea, bacteria, human, and viral datasets
