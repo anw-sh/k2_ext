@@ -10,8 +10,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/DBs/kraken/std_build/l
 ```
 
 ## Workaround
-`k2_get_missing_files.py` tries to download the missing file by using the **`manifest.txt`** file created while running `k2 build`  
-It creates a list of downloaded `gz` files in the corresponding directories and compares with the list in manifest
+`k2_get_missing_files.py` tries to download the missing files by using the **`manifest.txt`** file created while running `k2 build`  
+It creates a list of downloaded `gz` files in the corresponding directories and compares it with the list in the manifest
 
 ### Usage
 
